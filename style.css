@@ -1,0 +1,56 @@
+
+    .chart-container { 
+        position: relative; 
+        height: 300px; 
+        width: 100%; 
+        max-width: 600px; 
+    }
+    .shadow-hover:hover { 
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1); 
+    }
+    .progress-bar { 
+        height: 20px; 
+        border-radius: 10px; 
+        overflow: hidden; 
+    }
+    .progress-fill { 
+        height: 100%; 
+        transition: width 0.5s ease-in-out; 
+    }
+    .sidebar { 
+        resize: horizontal; 
+        overflow: auto; 
+        min-width: 200px; 
+        max-width: 400px; 
+        transition: width 0.3s ease; 
+    }
+    .sidebar::-webkit-resizer { 
+        background: #ccc; 
+        width: 5px; 
+    }
+    .alert { 
+        position: fixed; 
+        top: 10px; 
+        right: 10px; 
+        z-index: 1000; 
+    }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        min-width: 120px;
+        z-index: 1000;
+    }
+    .dropdown-menu a {
+        display: block;
+        padding: 8px 16px;
+        color: #4B5563;
+        text-decoration: none;
+    }
+    .dropdown-menu a:hover {
+        background-color: #F3F4F6;
+    }
