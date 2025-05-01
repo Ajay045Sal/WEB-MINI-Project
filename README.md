@@ -1,2 +1,5 @@
 # WEB-MINI-Project
 Web Programming Mini Project
+"" SMART EXPENSE TRACKER ""
+SETI CSE SEM 6
+21260131045 & 221260131046
